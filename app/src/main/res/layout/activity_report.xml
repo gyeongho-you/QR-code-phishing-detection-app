@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="뒤로가기"
+        android:id="@+id/Back_Btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart = "12dp"
+        android:text="신고하기"
+        android:id="@+id/report_URL1"
+        app:layout_constraintStart_toEndOf="@+id/report_Btn1"
+        app:layout_constraintBottom_toBottomOf="@id/report_Btn1"/>
+
+    <Button
+        android:id="@+id/report_Btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="신고하기"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Back_Btn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart = "12dp"
+        android:text="신고하기"
+        android:id="@+id/report_URL2"
+        app:layout_constraintBottom_toBottomOf="@id/report_Btn2"
+        app:layout_constraintStart_toEndOf="@+id/report_Btn2"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="신고하기"
+        android:id="@+id/report_Btn2"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/report_Btn1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart = "12dp"
+        android:text="신고하기"
+        android:id="@+id/report_URL3"
+        app:layout_constraintBottom_toBottomOf="@id/report_Btn3"
+        app:layout_constraintStart_toEndOf="@+id/report_Btn3"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="신고하기"
+        android:layout_marginTop="20dp"
+        android:id="@+id/report_Btn3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/report_Btn2"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart = "12dp"
+        android:text="신고하기"
+        android:id="@+id/report_URL4"
+        app:layout_constraintBottom_toBottomOf="@id/report_Btn4"
+        app:layout_constraintStart_toEndOf="@+id/report_Btn4"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="신고하기"
+        android:layout_marginTop="20dp"
+        android:id="@+id/report_Btn4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/report_Btn3"/>
+
+
+    <TextView
+        android:id="@+id/report_URL5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart = "12dp"
+        android:text="신고하기"
+        app:layout_constraintBottom_toBottomOf="@id/report_Btn5"
+        app:layout_constraintStart_toEndOf="@+id/report_Btn5"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="신고하기"
+        android:layout_marginTop="20dp"
+        android:id="@+id/report_Btn5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/report_Btn4"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
